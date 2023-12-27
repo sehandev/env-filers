@@ -1,0 +1,15 @@
+[package]
+name = "env-filers"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/sehandev/env-filers"
+license = "MIT"
+
+[[bin]]
+name = "env-filers"
+test = false
+bench = false
+
+[dependencies]
+crossterm = "0.27.0"
+ratatui = "0.24.0"
